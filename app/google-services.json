@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "950889626562",
+    "project_id": "costumnotification",
+    "storage_bucket": "costumnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950889626562:android:859b0050c3e317102d345b",
+        "android_client_info": {
+          "package_name": "com.tedaindo.customnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950889626562-7ltm6miidbslj15ntecl451ug50u8c93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tedaindo.customnotification",
+            "certificate_hash": "cfd6e13a51cfa87bb99e0071aec3218320cc32aa"
+          }
+        },
+        {
+          "client_id": "950889626562-rsl6asrd3rp3gd3ilbu54as7v7m8mbe5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tedaindo.customnotification",
+            "certificate_hash": "ca4bfad4b194d2dc24610694a3aadc01a557c4ba"
+          }
+        },
+        {
+          "client_id": "950889626562-iv4jnnj3thcrts6ome3u7qban7thk3c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3LJF8bAEdLyfIpLCQZgRWlWtIfhDAn80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950889626562-iv4jnnj3thcrts6ome3u7qban7thk3c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

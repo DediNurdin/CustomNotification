@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.OTPActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_30sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_verif_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Verifikasi OTP"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_phone_verif_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Masukan Kode OTP yang dikirim ke nomor"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:background="@drawable/bg_edittext_rounded"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_verif_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="@dimen/_6sdp"
+                android:layout_marginVertical="@dimen/_6sdp"
+                android:autofillHints="smsOTPCode"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:hint="masukan kode OTP"
+                android:importantForAutofill="yes"
+                android:inputType="number"
+                android:maxLength="6"
+                android:padding="@dimen/_6sdp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_timer_verif_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_weight="50"
+            android:text="Kirim ulang (21)"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_resend_verif_otp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="Kirim ulang (21)"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/bt_cancel_verif_otp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:backgroundTint="@color/md_red_700"
+                android:text="Batal"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/bt_save_verif_otp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Simpan"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

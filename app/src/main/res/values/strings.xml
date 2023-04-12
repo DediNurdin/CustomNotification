@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Latihan Firebase</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="msg_subscribed">Subscribed</string>
+    <string name="msg_subscribe_failed">Subscribe Failed</string>
+    <string name="msg_token_fmt">Message Token FMT</string>
+    <string name="pesan_alasan">Sepertinya ada fitur yg belum diijinkan, dimana fitur tersebut diperlukan untuk menjalankan aplikasi ini</string>
+    <string name="lbl_pengaturan">Pengaturan</string>
+    <string name="lbl_batal">Batal</string>
+    <string name="pesan_konfir_telepon">Konfirmasi</string>
+    <string name="lbl_ok">Ok</string>
+</resources>
